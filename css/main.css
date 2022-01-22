@@ -9,6 +9,7 @@
   color: #20c997;
 }
 
+
 #main {
   transition: margin-left .5s;
   padding: 16px;
@@ -115,6 +116,9 @@ html, body {
 .text-teal {
   color: var(--bs-teal); }
 
+.skills-section .text-teal {
+   font-weight: bold; 
+}
  
 .row {
 	-webkit-text-size-adjust: 100%;
