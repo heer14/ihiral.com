@@ -25,11 +25,13 @@
       </style>
         </noscript>
   </head>
+   
   <body class="bg-light" id="top">
-    <header class="d-print-none" >
+    
+    <header class="d-print-none shadow-1-strong bg-white art-top-bar" >
       <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix" >
-          <h2 class="site-title text-teal mb-0"> Hiral Shah</h2>
+          <a href="#">   <h2 class="site-title text-teal mb-0">Hiral Shah</h2></a>
           <div class="site-nav"> 
             <nav role="navigation">
               <ul class="nav justify-content-center">
@@ -93,11 +95,12 @@
               <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="hiral-resume.pdf" data-aos="fade-right" data-aos-delay="700">Download CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">CONTACT ME</a></div>
             </div>
           </div>
-        </div>
+          </div>
       </div>
     </div>
+      <div id="about"> </div>
   </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+  <div class="shadow-1-strong bg-white my-5 p-5">
     <div class="about-section">
       <div class="row">
         <div class="col-md-6">
@@ -141,6 +144,7 @@
         </div>
       </div>
     </div>
+         <div id="skills"> </div>
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
     <div class="skills-section">
@@ -205,9 +209,10 @@
         </div>
       </div>
     </div>
+      <div  id="experience"></div>
   </div>
   
-  <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+  <div class="shadow-1-strong bg-white my-5 p-5">
     <div class="work-experience-section">
       <h2 class="h2 mb-4 text-teal">Work Experience</h2>
       <div class="timeline">
@@ -270,8 +275,9 @@
         </div>
       </div>
     </div>
+      <div id="education"> </div> 
   </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+  <div class="shadow-1-strong bg-white my-5 p-5" >
     <div class="education-section">
       <h2 class="h2 fw-light mb-4 text-teal">Education</h2>
       <div class="timeline">
@@ -319,8 +325,9 @@
         </div>
       </div>
     </div>
+      <div id="portfolio"></div>
   </div>
-  <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
+  <div class="shadow-1-strong bg-white my-5 p-5 d-print-none">
     <div class="portfolio-section">
       <h2 class="h2 fw-light mb-4 text-teal">Projects</h2>
       <div class="row g-0">
@@ -385,9 +392,9 @@
 		</div>
         </div>
       </div>
+       <div id="certificates"></div>
     </div>
-  </div>
-          <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="certificates">
+    <div class="shadow-1-strong bg-white my-5 p-5 d-print-none">
     <div class="portfolio-section">
 		<h2 class="h2 mb-4 text-teal">Certificates</h2>
 		<div class="row g-0">
@@ -463,8 +470,9 @@
 			</div>
 		</div>
       </div>
+        <div id="references"></div>
     </div>  
-  <div class="shadow-1-strong bg-white my-5 p-5" id="references">
+  <div class="shadow-1-strong bg-white my-5 p-5" >
     <div class="reference-section">
       <h2 class="h2 mb-4 text-teal">References</h2>
       <div class="row"> 
@@ -541,6 +549,19 @@
     <script src="scripts/aos.js?ver=1.2.1"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
       <script src="scripts/typing.min.js"></script>
+        <script>
+            //Resize window
+function resize() {
+  if ($(window).width() < 700) {
+    $('header').removeClass('art-top-bar');
+  }
+}
+
+//watch window resize
+$(window).on('resize', function() {
+  resize()
+});
+        </script>
 	<script>
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
