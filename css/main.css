@@ -1,3 +1,36 @@
+
+/* ----- typing code ----- */
+.art-code {
+  font-family: "Courier Prime", monospace;
+  color: #fafafc;
+}
+.art-code i {
+  font-style: normal;
+  color: #20c997;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+	.my-style {
+		right: 0px;
+		align : right;
+		bottom:20px;
+		
+	}
+}
+.box:hover {
+  animation-duration: 0.25s;
+  border-left: 8px solid #20c997;
+  
+}
+.my-link{
+	color : black;
+}
+
 /* Timeline custom component */
 .timeline-card {
   position: relative;
@@ -50,6 +83,7 @@ html, body {
   line-height: 2.5rem;
   color: inherit;
   opacity: 0.8; }
+  
 
 .header-social .nav-link {
   font-size: 1.25rem; }
@@ -81,6 +115,74 @@ html, body {
 .text-teal {
   color: var(--bs-teal); }
 
+ 
+.row {
+	-webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    font-family: poppins,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #666;
+    -webkit-box-direction: normal;
+    hyphens: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}	
+.col-xs-12 col-sm-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.certificate-item {
+    hyphens: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 95%;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    transition: all .2s ease-in-out;
+}
+.certi-logo {
+    display: table-cell;
+    width: 150px;
+    height: 100%;
+    vertical-align: middle;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.certi-content{
+    text-align: left;
+    line-height: 1.75em;
+    -webkit-box-direction: normal;
+    hyphens: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.certi-title{
+    text-align: left;
+    -webkit-box-direction: normal;
+    hyphens: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+ 
 footer a:not(.nav-link) {
   color: inherit;
   border-bottom: 1px dashed;
