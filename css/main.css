@@ -215,7 +215,7 @@ footer a:not(.nav-link) {
     float: right; }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 820px) {
   /* disable animations on mobile */
   [data-aos] {
     opacity: 1 !important;
@@ -228,6 +228,9 @@ footer a:not(.nav-link) {
     flex-direction: column-reverse; }
   .portfolio-reverse .text-end {
     text-align: start !important; } 
+    .nav-item {
+        display: none;
+    }
 }
 
 
