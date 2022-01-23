@@ -231,6 +231,9 @@ footer a:not(.nav-link) {
     .nav-item {
         display: none;
     }
+    .art-code {
+        font-size: 20px;
+    }
 }
 
 
