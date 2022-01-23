@@ -251,9 +251,6 @@ footer a:not(.nav-link) {
         bottom: 20px;
 
     }
-        .art-code {
-        font-size: 10px;
-    }
 }
 
 @media (max-width: 820px) {
@@ -283,9 +280,8 @@ footer a:not(.nav-link) {
     .nav-item {
         display: none;
     }
-
-    .art-code {
-        font-size: 20px;
+    .code {
+        display: none;
     }
 }
 
