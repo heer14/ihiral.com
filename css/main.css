@@ -17,6 +17,9 @@
 .nav-item > a:hover {
     color: #20c997;
 }
+.navbar-toggler{
+    display:none;
+}
 
 
 /* ----- typing code ----- */
@@ -243,6 +246,9 @@ footer a:not(.nav-link) {
     .site-nav {
         float: right;
     }
+    .navbar-toggler {
+        float: right;
+    }
 }
 @media screen and (max-height: 450px) {
     .my-style {
@@ -282,6 +288,15 @@ footer a:not(.nav-link) {
     }
     .code {
         display: none;
+    }
+    .site-title {
+        float: left;
+    }
+    .site-nav {
+        float: right;
+    }
+    .navbar-toggler {
+        display:block;
     }
 }
 
