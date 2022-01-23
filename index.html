@@ -11,9 +11,9 @@
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
     </noscript>
@@ -41,51 +41,71 @@
                     <h2 class="site-title text-teal mb-0">Hiral Shah</h2>
                 </a>
                 <div class="site-nav">
-                    <nav role="navigation" >
+                    <nav role="navigation">
                         <ul class="nav justify-content-center">
-                            <li><button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><i class="fa fa-bars" aria-hidden="true"></i></button></li>
-                            <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
+                            <li><button class="navbar-toggler navbar-toggler-icon icon icon--transparent" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" onclick="toggle()">
+                                    <i class="show menu fa fa-bars" aria-hidden="true"></i>
+                                    <i class="hide menu fas fa-times" aria-hidden="true"></i>
+                                </button></li>
+                            <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span>
+                                    <div class="underline"></div>
+                                </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
+                            <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span>
+                                    <div class="underline"></div>
+                                </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+                            <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span>
+                                    <div class="underline"></div>
+                                </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+                            <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span>
+                                    <div class="underline"></div>
+                                </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#portfolio" title="Projets"><span class="menu-title">Projects</span></a>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio" title="Projets"><span class="menu-title">Projects</span>
+                                    <div class="underline"></div>
+                                </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#certificates" title="Certificates"><span class="menu-title">Certificates</span></a>
+                            <li class="nav-item"><a class="nav-link" href="#certificates" title="Certificates"><span class="menu-title">Certificates</span>
+                                    <div class="underline"></div>
+                                </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
+                            <li class="nav-item"><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span>
+                                    <div class="underline"></div>
+                                </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
+                            <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span>
+                                    <div class="underline"></div>
+                                </a>
+
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
-        <nav class = "navbar-expand-sm bg-light nav-mobile">
-         <div class ="collapse navbar-collapse " id="collapsibleNavbar">
-                        <ul class="navbar-nav" style="align-items:center">
-                            <li><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
-                            </li>
-                            <li><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
-                            </li>
-                            <li><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
-                            </li>
-                            <li><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
-                            </li>
-                            <li><a class="nav-link" href="#portfolio" title="Projets"><span class="menu-title">Projects</span></a>
-                            </li>
-                            <li><a class="nav-link" href="#certificates" title="Certificates"><span class="menu-title">Certificates</span></a>
-                            </li>
-                            <li><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
-                            </li>
-                            <li><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
-                            </li>
-                        </ul>
-                    </div>
+        <nav class="navbar-expand-sm bg-light nav-mobile">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" style="align-items:center">
+                    <li><a class="nav-link" href="#about" title="About"><span class="menu-title">Abouts</span></a>
+                    </li>
+                    <li><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
+                    </li>
+                    <li><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+                    </li>
+                    <li><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+                    </li>
+                    <li><a class="nav-link" href="#portfolio" title="Projets"><span class="menu-title">Projects</span></a>
+                    </li>
+                    <li><a class="nav-link" href="#certificates" title="Certificates"><span class="menu-title">Certificates</span></a>
+                    </li>
+                    <li><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
+                    </li>
+                    <li><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="page-content">
@@ -125,54 +145,55 @@
                             </div>
                         </div>
                     </div>
-                    <div id="about"> </div>
                 </div>
-                <div class="shadow-1-strong bg-white my-5 p-5">
-                    <div class="about-section">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="h2 fw-light mb-4 text-teal">About Me</h2>
-                                <p> Hi, I am a strong engineering professional with a Master of Technology - MTech focused in Software Engineering. </p>
-                                <p>● Software Engineer with 6+ years of experience in software design and development .</p>
-                                <p>● Having a good grasp of Data Structures and Algorithms with hands-on experience in C and C++ programming.</p>
-                                <p>● Good understanding of Computer Networking protocols, Computer architecture.</p>
-                                <p>● Working Experience of Python Scripting for Automation.</p>
-                                <p>● Working Experience of Image processing in python.</p>
-                                <p>● Hands on tools like perforce, GDB, source insight, visual studio, atom, DOORS, Coverty, Enterprise Architect, Git etc</p>
-                            </div>
-                            <div class="col-md-5 offset-lg-1">
-                                <div class="row mt-2">
-                                    <h2 class="h2 fw-light mb-4 text-teal">Bio</h2>
-                                    <div class="col-sm-5">
-                                        <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Age</div>
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <div class="pb-2">26</div>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <div class="pb-2">mail@ihiral.com</div>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <div class="pb-2">+91-7046299304</div>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Location</div>
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <div class="pb-2">Hydrabad, Telangana</div>
+                <section id="about">
+                    <div class="shadow-1-strong bg-white my-5 p-5">
+                        <div class="about-section">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h2 class="h2 fw-light mb-4 text-teal">About Me</h2>
+                                    <p> Hi, I am a strong engineering professional with a Master of Technology - MTech focused in Software Engineering. </p>
+                                    <p>● Software Engineer with 6+ years of experience in software design and development .</p>
+                                    <p>● Having a good grasp of Data Structures and Algorithms with hands-on experience in C and C++ programming.</p>
+                                    <p>● Good understanding of Computer Networking protocols, Computer architecture.</p>
+                                    <p>● Working Experience of Python Scripting for Automation.</p>
+                                    <p>● Working Experience of Image processing in python.</p>
+                                    <p>● Hands on tools like perforce, GDB, source insight, visual studio, atom, DOORS, Coverty, Enterprise Architect, Git etc</p>
+                                </div>
+                                <div class="col-md-5 offset-lg-1">
+                                    <div class="row mt-2">
+                                        <h2 class="h2 fw-light mb-4 text-teal">Bio</h2>
+                                        <div class="col-sm-5">
+                                            <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Age</div>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="pb-2">26</div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="pb-2">mail@ihiral.com</div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="pb-2">+91-7046299304</div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Location</div>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="pb-2">Hydrabad, Telangana</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="skills"> </div>
-                </div>
+                </section>
+            </div>
+            <section id="skills">
                 <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
                     <div class="skills-section">
                         <h2 class="h2 mb-4 text-teal">Professional Skills</h2>
@@ -236,9 +257,9 @@
                             </div>
                         </div>
                     </div>
-                    <div id="experience"></div>
                 </div>
-
+            </section>
+            <section id="experience">
                 <div class="shadow-1-strong bg-white my-5 p-5">
                     <div class="work-experience-section">
                         <h2 class="h2 mb-4 text-teal">Work Experience</h2>
@@ -306,8 +327,9 @@
                             </div>
                         </div>
                     </div>
-                    <div id="education"> </div>
                 </div>
+            </section>
+            <section id="education">
                 <div class="shadow-1-strong bg-white my-5 p-5">
                     <div class="education-section">
                         <h2 class="h2 fw-light mb-4 text-teal">Education</h2>
@@ -356,8 +378,9 @@
                             </div>
                         </div>
                     </div>
-                    <div id="portfolio"></div>
                 </div>
+            </section>
+            <section id="portfolio">
                 <div class="shadow-1-strong bg-white my-5 p-5 d-print-none">
                     <div class="portfolio-section">
                         <h2 class="h2 fw-light mb-4 text-teal">Projects</h2>
@@ -426,8 +449,9 @@
                             </div>
                         </div>
                     </div>
-                    <div id="certificates"></div>
                 </div>
+            </section>
+            <section id="certificates">
                 <div class="shadow-1-strong bg-white my-5 p-5 d-print-none">
                     <div class="portfolio-section">
                         <h2 class="h2 mb-4 text-teal">Certificates</h2>
@@ -516,8 +540,9 @@
                             </div>
                         </div>
                     </div>
-                    <div id="references"></div>
                 </div>
+            </section>
+            <section id="references">
                 <div class="shadow-1-strong bg-white my-5 p-5">
                     <div class="reference-section">
                         <h2 class="h2 mb-4 text-teal">References</h2>
@@ -551,7 +576,9 @@
                         <p><a class="btn btn-info btn-lg shadow-sm mt-1" href="https://linkedin.com/in/hiral14" title="Linkedin">View more on Linkedin</a> </p>
                     </div>
                 </div>
-                <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
+            </section>
+            <section id="contact">
+                <div class="shadow-1-strong bg-white my-5 p-5">
                     <div class="contant-section">
                         <h2 class="h2 fw-light text-teal">Get in Touch!</h2>
                         <div class="row">
@@ -566,109 +593,177 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
-        <footer class="pt-4 pb-4 text-muted text-center d-print-none">
-            <div class="container">
-                <div class="my-3">
-                    <div class="h4">Hiral Shah</div>
-                    <div class="footer-nav">
-                        <nav role="navigation">
-                            <ul class="nav justify-content-center">
-                                <li class="nav-item"><a class="nav-link" href="https://linkedin.com/in/hiral14" title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span></a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="https://facebook.com/heer.shah.1411" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/_heer_shah" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="https://github.com/heer14" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <small class="copyright">Made with <i class="fa fa-heart" style="color: #fb866a"></i></small>
-                    </div>
+    </div>
+
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+        <div class="container">
+            <div class="my-3">
+                <div class="h4">Hiral Shah</div>
+                <div class="footer-nav">
+                    <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item"><a class="nav-link" href="https://linkedin.com/in/hiral14" title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="https://facebook.com/heer.shah.1411" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/_heer_shah" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="https://github.com/heer14" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <small class="copyright">Made with <i class="fa fa-heart" style="color: #fb866a"></i></small>
                 </div>
             </div>
-        </footer>
-        <!-- jquery js -->
-        <script src="scripts/jquery.min.js"></script>
-        <script src="scripts/mdb.min.js?ver=1.2.1"></script>
-        <script src="scripts/aos.js?ver=1.2.1"></script>
-        <script src="scripts/main.js?ver=1.2.1"></script>
-        <script src="scripts/typing.min.js"></script>
-        <script>
-            var TxtType = function(el, toRotate, period) {
-                this.toRotate = toRotate;
-                this.el = el;
-                this.loopNum = 0;
-                this.period = parseInt(period, 10) || 20000;
-                this.txt = '';
-                this.tick();
+        </div>
+    </footer>
+    <!-- jquery js -->
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+    <script src="scripts/aos.js?ver=1.2.1"></script>
+    <script src="scripts/main.js?ver=1.2.1"></script>
+    <script src="scripts/typing.min.js"></script>
+    <script>
+        var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 20000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
                 this.isDeleting = false;
-            };
+                this.loopNum++;
+                delta = 500;
+            }
 
-            TxtType.prototype.tick = function() {
-                var i = this.loopNum % this.toRotate.length;
-                var fullTxt = this.toRotate[i];
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
 
-                if (this.isDeleting) {
-                    this.txt = fullTxt.substring(0, this.txt.length - 1);
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+
+    </script>
+    <script>
+        (function(w, d) {
+            w.CollectId = "61ebc05ebe19f1762af02bc9";
+            var h = d.head || d.getElementsByTagName("head")[0];
+            var s = d.createElement("script");
+            s.setAttribute("type", "text/javascript");
+            s.async = true;
+            s.setAttribute("src", "https://collectcdn.com/launcher.js");
+            h.appendChild(s);
+        })(window, document);
+
+    </script>
+    <script>
+        function toggle() {
+            var buttons = document.getElementsByClassName("menu");
+            for (let i = 0; i < buttons.length; i++) {
+                if (buttons[i].classList.contains("show")) {
+                    buttons[i].classList.remove("show");
                 } else {
-                    this.txt = fullTxt.substring(0, this.txt.length + 1);
+                    buttons[i].classList.add("show");
                 }
-
-                this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-                var that = this;
-                var delta = 200 - Math.random() * 100;
-
-                if (this.isDeleting) {
-                    delta /= 2;
+                if (buttons[i].classList.contains("hide")) {
+                    buttons[i].classList.remove("hide");
+                } else {
+                    buttons[i].classList.add("hide");
                 }
+            }
 
-                if (!this.isDeleting && this.txt === fullTxt) {
-                    delta = this.period;
-                    this.isDeleting = true;
-                } else if (this.isDeleting && this.txt === '') {
-                    this.isDeleting = false;
-                    this.loopNum++;
-                    delta = 500;
+        }
+
+    </script>
+    <script>
+        $("a[href^='#']").click(function(e) {
+            e.preventDefault();
+
+            var position = $($(this).attr("href")).offset().top - 100;
+
+            $("body, html").animate({
+                scrollTop: position
+            } /* speed */ );
+        });
+
+    </script>
+    <script>
+        // Get all sections that have an ID defined
+        const sections = document.querySelectorAll("section[id]");
+
+        // Add an event listener listening for scroll
+        document.addEventListener("scroll", navHighlighter);
+
+        function navHighlighter() {
+
+
+            // Get current scroll position
+            let scrollY = window.pageYOffset;
+
+            // Now we loop through sections to get height, top and ID values for each
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight;
+                const sectionTop = current.offsetTop - 350;
+                sectionId = current.getAttribute("id");
+
+                /*
+                - If our current scroll position enters the space where current section on screen is, add .active class to corresponding navigation link, else remove it
+                - To know which link needs an active class, we use sectionId variable we are getting while looping through sections as an selector
+                */
+                if (
+                    scrollY > sectionTop &&
+                    scrollY <= sectionTop + sectionHeight
+                ) {
+                    document.querySelector(".nav-item a[href*=" + sectionId + "]").classList.add("active");
+                } else {
+                    document.querySelector(".nav-item a[href*=" + sectionId + "]").classList.remove("active");
                 }
+            });
+        }
 
-                setTimeout(function() {
-                    that.tick();
-                }, delta);
-            };
-
-            window.onload = function() {
-                var elements = document.getElementsByClassName('typewrite');
-                for (var i = 0; i < elements.length; i++) {
-                    var toRotate = elements[i].getAttribute('data-type');
-                    var period = elements[i].getAttribute('data-period');
-                    if (toRotate) {
-                        new TxtType(elements[i], JSON.parse(toRotate), period);
-                    }
-                }
-                // INJECT CSS
-                var css = document.createElement("style");
-                css.type = "text/css";
-                css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-                document.body.appendChild(css);
-            };
-
-        </script>
-        <script>
-            (function(w, d) {
-                w.CollectId = "61ebc05ebe19f1762af02bc9";
-                var h = d.head || d.getElementsByTagName("head")[0];
-                var s = d.createElement("script");
-                s.setAttribute("type", "text/javascript");
-                s.async = true;
-                s.setAttribute("src", "https://collectcdn.com/launcher.js");
-                h.appendChild(s);
-            })(window, document);
-
-        </script>
+    </script>
 </body>
 
 </html>
