@@ -13,15 +13,10 @@
     -ms-flex-align: center;
     align-items: center;
 }
-.nav-mobile{
-    display:none;
-}
 
-.nav-link:hover {
-    background-color: #20c997;
-    color : white;
+.nav-item > a:hover {
+    color: #20c997;
 }
-
 .navbar-toggler{
     display:none;
 }
@@ -124,6 +119,12 @@ body {
 
 .header-social .nav-link {
     font-size: 1.25rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: inherit;
+    opacity: 1;
 }
 
 .nav-item + .nav-item {
@@ -296,9 +297,6 @@ footer a:not(.nav-link) {
     }
     .navbar-toggler {
         display:block;
-    }
-    .nav-mobile{
-    display:block;
     }
 }
 
